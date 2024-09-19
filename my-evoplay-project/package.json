@@ -1,6 +1,7 @@
 {
   "name": "my-evoplay-project",
   "version": "0.1.0",
+  "homepage": "https://DenNice-cloud.github.io/Evoplay_frontend",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
