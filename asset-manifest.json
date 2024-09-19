@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Evoplay_frontend/static/css/main.16634ec6.css",
+    "main.css": "/Evoplay_frontend/static/css/main.7635fe50.css",
     "main.js": "/Evoplay_frontend/static/js/main.e760a744.js",
     "static/media/header_image.svg": "/Evoplay_frontend/static/media/header_image.20ab6400bf1d20e357e64177962920a3.svg",
     "static/media/Poppins-Light.ttf": "/Evoplay_frontend/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
@@ -15,11 +15,11 @@
     "static/media/message.svg": "/Evoplay_frontend/static/media/message.861789f6bdde5401f8e5e5ab7bf0a7af.svg",
     "static/media/globaly.svg": "/Evoplay_frontend/static/media/globaly.5078dda678c35f534a2fb1c12861e441.svg",
     "static/media/Arrow.svg": "/Evoplay_frontend/static/media/Arrow.f86b9b580a651053ced4ad259949f345.svg",
-    "main.16634ec6.css.map": "/Evoplay_frontend/static/css/main.16634ec6.css.map",
+    "main.7635fe50.css.map": "/Evoplay_frontend/static/css/main.7635fe50.css.map",
     "main.e760a744.js.map": "/Evoplay_frontend/static/js/main.e760a744.js.map"
   },
   "entrypoints": [
-    "static/css/main.16634ec6.css",
+    "static/css/main.7635fe50.css",
     "static/js/main.e760a744.js"
   ]
 }
