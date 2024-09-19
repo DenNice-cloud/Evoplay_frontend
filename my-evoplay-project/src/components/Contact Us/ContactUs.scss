@@ -31,7 +31,7 @@
       &--blocks {
         display: flex;
         flex-direction: column;
-
+        margin-bottom: 30px;
         gap: 150px;
 
         &__variants {
@@ -46,8 +46,6 @@
           &__detail {
             width: 100%;
           }
-
-          margin-bottom: 30px;
         }
       }
     }
@@ -55,7 +53,7 @@
     .contact-us--form {
       padding: 140px 16px;
       justify-content: center;
-      
+
       .contact-us--form__inputs {
         width: 100%;
         text-align: center;

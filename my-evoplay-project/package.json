@@ -1,6 +1,7 @@
 {
   "name": "my-evoplay-project",
   "version": "0.1.0",
+  "homepage": "https://DenNice-cloud.github.io/Evoplay_frontend",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -16,7 +17,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "gulp": "gulp watch"
+    "gulp": "gulp watch",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -37,7 +40,12 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
     "sass": "^1.79.1"
   }
 }

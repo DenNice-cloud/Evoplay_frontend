@@ -1,15 +1,20 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const cleanCSS = require('gulp-clean-css');
-const autoprefixer = require('gulp-autoprefixer');
 const sourcemaps = require('gulp-sourcemaps');
+
+async function getAutoprefixer() {
+  const autoprefixer = await import('gulp-autoprefixer');
+  return autoprefixer.default;
+}
 
 const paths = {
   scss: './src/**/*.scss',
   css: './src/'
 };
 
-function styles() {
+async function styles() {
+  const autoprefixer = await getAutoprefixer();
   return gulp.src(paths.scss)
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
