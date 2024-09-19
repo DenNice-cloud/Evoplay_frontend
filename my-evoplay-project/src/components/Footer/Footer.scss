@@ -1,0 +1,116 @@
+@import "../../styles/variables";
+
+.footer {
+  background: $additional-background-color;
+  color: $text-color;
+  text-align: left;
+  padding: 90px 80px;
+
+  @media (max-width: 1440px) {
+    &__title {
+      color: $secondary-color;
+      margin-bottom: 120px;
+      display: flex;
+      justify-content: center;
+    }
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+    }
+
+    &__section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 180px;
+    }
+
+    &__item {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+
+    &__description {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__container {
+    display: flex;
+    gap: 5%;
+  }
+
+  &__section {
+    width: 100%;
+  }
+
+  &__title {
+    color: $secondary-color;
+    margin-bottom: 70px;
+  }
+
+  &__subtitle {
+    font-size: 18px;
+    margin-bottom: 60px;
+  }
+
+  &__list {
+    list-style: none;
+  }
+
+  &__item {
+    margin-bottom: 42px;
+    display: flex;
+
+    &--description {
+      font-family: "Poppins";
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+
+      img {
+        margin-right: 30px;
+      }
+    }
+
+    &--company {
+      display: flex;
+      margin-bottom: 42px;
+      align-items: center;
+
+      img {
+        margin-right: 30px;
+      }
+    }
+  }
+
+  &__link {
+    font-family: "Poppins";
+    color: $text-color;
+    text-decoration: none;
+    transition: transform 0.5s ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &__description {
+    font-family: "Poppins";
+    font-size: 14px;
+  }
+
+  &__bottom {
+    text-align: center;
+    margin-top: 200px;
+  }
+
+  &__copy {
+    font-size: 18px;
+  }
+}

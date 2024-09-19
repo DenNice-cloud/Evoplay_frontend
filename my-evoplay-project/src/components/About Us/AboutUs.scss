@@ -1,0 +1,105 @@
+@import "../../styles/variables";
+
+.about-us {
+  padding: 215px 90px;
+  color: $text-color;
+  display: flex;
+  text-align: left;
+  gap: 109px;
+
+  @media (max-width: 1440px) {
+    flex-direction: column;
+    padding: 130px 16px;
+    align-items: center;
+    text-align: center;
+
+    &--block {
+      justify-content: center;
+      align-items: center;
+
+      &__title {
+        font-size: 28px !important;
+        margin-bottom: 10px;
+      }
+
+      &__description {
+        font-size: 18px !important;
+        margin-bottom: 50px;
+      }
+
+      &__additional__description {
+        font-size: 18px !important;
+        margin-bottom: 42px;
+      }
+    }
+
+    &--img-block {
+      display: none;
+    }
+
+    &--img-block__phone {
+      width: 90vw;
+      height: 90vw;
+      border-radius: 35px;
+      background: $background-color;
+      margin-bottom: 50px;
+    }
+  }
+
+  &--block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__title {
+      font-family: "Mashetic";
+      font-size: 38px;
+    }
+
+    &__description {
+      font-family: "Poppins";
+      font-size: 24px;
+    }
+
+    &__additional__description {
+      font-family: "Poppins";
+    }
+
+    &__button {
+      background: $gradient;
+      color: $text-color;
+      border: none;
+      cursor: pointer;
+      padding: 12px 40px;
+      max-width: 200px;
+
+      transition: transform 0.5s ease;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  &--img-block {
+    width: 100vw;
+    height: 457px;
+    border-radius: 35px;
+    background: $background-color;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 20%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+      width: 400px;
+      height: 400px;
+      background: $blue-filter;
+      border-radius: 50%;
+      z-index: -1;
+      filter: blur(80px);
+    }
+  }
+}

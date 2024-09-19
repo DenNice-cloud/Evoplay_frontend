@@ -1,0 +1,264 @@
+@import "../../styles/variables";
+
+.contact-us {
+  @media (max-width: 1440px) {
+    display: flex;
+    flex-direction: column;
+
+    .contact-us--info {
+      display: flex;
+      flex-direction: column;
+      padding: 118px 20px;
+      justify-content: center;
+      align-items: center;
+
+      &--block {
+        width: 100%;
+
+        &__title {
+          font-size: 28px;
+          text-align: center;
+          margin-bottom: 20px;
+        }
+
+        &__description {
+          font-size: 18px;
+          text-align: center;
+          margin-bottom: 230px;
+        }
+      }
+
+      &--blocks {
+        display: flex;
+        flex-direction: column;
+
+        gap: 150px;
+
+        &__variants {
+          &::before {
+            bottom: 150%;
+          }
+
+          &::after {
+            bottom: 220%;
+          }
+
+          &__detail {
+            width: 100%;
+          }
+
+          margin-bottom: 30px;
+        }
+      }
+    }
+
+    .contact-us--form {
+      padding: 140px 16px;
+      justify-content: center;
+      
+      .contact-us--form__inputs {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+
+        .contact-us--form__title {
+          font-size: 28px;
+          margin-bottom: 13px;
+        }
+
+        .contact-us--form__description {
+          font-size: 18px;
+          margin-bottom: 457px;
+          display: flex;
+          justify-content: center;
+          position: relative;
+          align-items: center;
+
+          &::after {
+            content: "";
+            position: absolute;
+            width: 416px;
+            height: 416px;
+            top: 140%;
+            border-radius: 50%;
+            background: $background-color;
+          }
+        }
+      }
+
+      &__main {
+        width: 100%;
+      }
+
+      &__bg {
+        &::before {
+          display: none;
+        }
+
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+
+  &--info {
+    padding: 100px 90px;
+    background: $additional-background-color;
+    display: flex;
+    color: $text-color;
+    justify-content: space-between;
+
+    &--block {
+      width: 45%;
+      text-align: left;
+
+      &__title {
+        font-size: 34px;
+      }
+
+      &__description {
+        font-family: "Poppins";
+        font-size: 18px;
+      }
+    }
+
+    &--blocks {
+      display: flex;
+      width: 45%;
+      justify-content: space-between;
+
+      &__variants {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+
+        &::before {
+          content: "";
+          bottom: 50%;
+          position: absolute;
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          background: $background-color;
+        }
+
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: -10%;
+          width: 150px;
+          height: 150px;
+          background: $blue-filter;
+          border-radius: 50%;
+          z-index: -1;
+          filter: blur(60px);
+        }
+
+        &__detail {
+          width: 9vw;
+        }
+      }
+    }
+  }
+
+  &--form {
+    display: flex;
+    padding: 90px;
+    justify-content: space-between;
+    text-align: left;
+    color: $text-color;
+
+    &__inputs {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+
+    &__main {
+      width: 90%;
+
+      & form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      & input,
+      & textarea {
+        font-size: 18px;
+        padding: 16px 30px;
+        resize: none;
+        margin-bottom: 35px;
+        border: none;
+        color: $text-color;
+        background: $additional-background-color;
+      }
+
+      input::placeholder,
+      textarea::placeholder {
+        color: $text-color;
+        opacity: 1;
+      }
+
+      & button {
+        padding: 12px;
+        background: $gradient;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        color: $text-color;
+
+        transition: transform 0.7s ease;
+      }
+
+      & button:hover {
+        transform: scale(1.03);
+      }
+    }
+
+    &__title {
+      font-size: 34px;
+    }
+
+    &__description {
+      font-family: "Poppins";
+      font-size: 24px;
+      margin-bottom: 50px;
+    }
+
+    &__bg {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        width: 416px;
+        height: 416px;
+        bottom: 5vw;
+        left: 50vw;
+        border-radius: 50%;
+        background: $background-color;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 10vw;
+        left: 50vw;
+        width: 30vw;
+        height: 30vw;
+        background: $blue-filter;
+        border-radius: 50%;
+        z-index: -1;
+        filter: blur(80px);
+      }
+    }
+  }
+}
