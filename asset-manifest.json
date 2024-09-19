@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Evoplay_frontend/static/css/main.16634ec6.css",
+    "main.js": "/Evoplay_frontend/static/js/main.e760a744.js",
+    "static/media/header_image.svg": "/Evoplay_frontend/static/media/header_image.20ab6400bf1d20e357e64177962920a3.svg",
+    "static/media/Poppins-Light.ttf": "/Evoplay_frontend/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
+    "static/media/Mashetic.otf": "/Evoplay_frontend/static/media/Mashetic.b36adab32ea7a587d01a.otf",
+    "static/media/rate.svg": "/Evoplay_frontend/static/media/rate.1ad7d236ac628a911a9f106cd475f081.svg",
+    "static/media/expert.svg": "/Evoplay_frontend/static/media/expert.8953514239f294f563e55e2f6fa70089.svg",
+    "static/media/phone.svg": "/Evoplay_frontend/static/media/phone.fd3b2679083776aec9174e66acf6835b.svg",
+    "static/media/burgerMenu.svg": "/Evoplay_frontend/static/media/burgerMenu.06db337ff4e950b2bf38.svg",
+    "static/media/location.svg": "/Evoplay_frontend/static/media/location.970bda65e3ff3b464021c96c81c47228.svg",
+    "static/media/project.svg": "/Evoplay_frontend/static/media/project.48e350be3add8aa781fe01d9c4603843.svg",
+    "index.html": "/Evoplay_frontend/index.html",
+    "static/media/message.svg": "/Evoplay_frontend/static/media/message.861789f6bdde5401f8e5e5ab7bf0a7af.svg",
+    "static/media/globaly.svg": "/Evoplay_frontend/static/media/globaly.5078dda678c35f534a2fb1c12861e441.svg",
+    "static/media/Arrow.svg": "/Evoplay_frontend/static/media/Arrow.f86b9b580a651053ced4ad259949f345.svg",
+    "main.16634ec6.css.map": "/Evoplay_frontend/static/css/main.16634ec6.css.map",
+    "main.e760a744.js.map": "/Evoplay_frontend/static/js/main.e760a744.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16634ec6.css",
+    "static/js/main.e760a744.js"
+  ]
+}
